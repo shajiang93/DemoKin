@@ -71,7 +71,7 @@ Thus for each year, we have a list of age-specific probabilities of moving from 
 To avoid the need for tedious calculations to put data into such format in this vignette, these lists are constructed  in another file and simply imported below. The code below reads in the above function input lists.
 
 ```{r eval=TRUE, message=FALSE, warning=FALSE, include=TRUE}
-load("../../swedish_edu.rdata")
+load("swedish_edu.rdata") #change the path accordingly
 ```
 
 Recap: above are lists of period-specific demographic rates, in particular comprising:
