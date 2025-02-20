@@ -1,15 +1,21 @@
 ---
 title: "Expected kin counts by type of relative in a two-sex multi-state time-varying framework (Swedish case by education)"
 bibliography: references.bib
+date: "Updated: `r Sys.Date()`"
 output:
   html_document:
-    toc: true
-    toc_depth: 1
+    # toc_depth: 2
+    toc_float: true
+    # number_sections: true
+    theme: readable
+    highlight: pygments
+    # code_folding: hide
 vignette: >
   %\VignetteIndexEntry{Reference_TwoSex}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
+
 
 ```{r, eval = T, include=FALSE}
 rm(list = ls())
